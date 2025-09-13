@@ -156,39 +156,6 @@
       transform: translateY(-50%) scale(1.1); /* Menambah efek hover tanpa mengubah posisi */
     }
     
-    /* Breadcrumb */
-    .breadcrumb {
-      background-color: var(--light-color);
-      padding: 15px 0;
-      border-bottom: 1px solid var(--border-color);
-    }
-    .breadcrumb-container {
-      display: flex;
-      align-items: center;
-      font-size: 14px;
-    }
-    .breadcrumb-item {
-      display: flex;
-      align-items: center;
-    }
-    .breadcrumb-item:not(:last-child)::after {
-      content: '/';
-      margin: 0 10px;
-      color: #6c757d;
-    }
-    .breadcrumb-item a {
-      color: var(--text-color);
-      text-decoration: none;
-      transition: var(--transition);
-    }
-    .breadcrumb-item a:hover {
-      color: var(--secondary-color);
-    }
-    .breadcrumb-item.active {
-      color: var(--secondary-color);
-      font-weight: 500;
-    }
-    
     /* Products Section */
     .products-section {
       padding: 40px 0;
@@ -427,7 +394,7 @@
       <div class="header-container">
         <div class="logo">
           <img src="momentum.png" alt="Momentum Machinery Part Logo">
-          <h1>Momentum Machinery Part</h1>
+          <h1>Momentum Machinery</h1>
         </div>
       </div>
     </div>
@@ -441,18 +408,6 @@
       <a href="products.html" class="active">Produk</a>
     </nav>
   </header>
-  
-  <!-- Breadcrumb -->
-  <div class="breadcrumb">
-    <div class="container breadcrumb-container">
-      <div class="breadcrumb-item">
-        <a href="index.html">Beranda</a>
-      </div>
-      <div class="breadcrumb-item active">
-        Produk
-      </div>
-    </div>
-  </div>
   
   <!-- Products Section -->
   <section class="products-section">
